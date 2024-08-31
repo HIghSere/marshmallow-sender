@@ -1,0 +1,26 @@
+{
+  "bin": "dist/index.js",
+  "pkg": {
+    "script": [
+      "dist/index.js",
+      "dist/src/messageSend/index.js",
+      "dist/util/randomString.js",
+      "dist/util/sleep.js"
+    ],
+    "assets": [
+      "node_modules/puppeteer/**/*"
+    ]
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/puppeteer": "^7.0.4",
+    "prompt-sync": "^4.2.0",
+    "puppeteer": "^22.13.0",
+    "tor-request": "^3.1.0",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "@types/prompt-sync": "^4.2.3",
+    "nexe": "^4.0.0-rc.6"
+  }
+}
